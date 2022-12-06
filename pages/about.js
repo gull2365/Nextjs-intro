@@ -1,10 +1,10 @@
-import { NavBar } from "../components/NavBar";
+import Seo from "../components/Seo";
 
 export default function Potato() {
-    return (
-        <div>
-            <NavBar/>
-            <h2>HELLO</h2>
-        </div>
-    );
+  return (
+    <div>
+      <Seo title="about" />
+      <h2>about</h2>
+    </div>
+  );
 }
