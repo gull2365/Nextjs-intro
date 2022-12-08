@@ -14,7 +14,7 @@ export default function Home() {
       <Seo title="Home" />
       {!movies && <h4>Loading...</h4>}
       {movies?.map((movies) => (
-        <div key={movies.id}>
+        <div className="movies" key={movies.id}>
           <img src={`https://image.tmdb.org/t/p/w500/${movies.poster_path}`} />
           <h4>{movies.original_title}</h4>
         </div>
